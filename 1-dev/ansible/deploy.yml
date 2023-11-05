@@ -1,0 +1,6 @@
+---
+- hosts: host1
+  roles:
+    - app_deployment
+  vars:
+    test: one
