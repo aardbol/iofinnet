@@ -1,5 +1,5 @@
 locals {
-  domain = "aws.malik.pm"
+  domain = "aws.domain.com"
 }
 
 resource "aws_route53_zone" "domain" {
